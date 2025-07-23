@@ -5,29 +5,44 @@
     <meta charset="UTF-8">
     <title>Restaurant NAO - Meniu</title>
     <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
         body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Centrare verticală */
+            align-items: center;     /* Centrare orizontală */
             background: linear-gradient(to bottom, #f5f5dc, #fff8dc);
             font-family: 'Segoe UI', sans-serif;
             text-align: center;
-            padding: 40px;
             color: #4a3f2a;
         }
+
         h1 {
-            font-size: 36px;
+            font-size: 48px; /* Text mai mare */
             margin-bottom: 20px;
             color: #c9a835;
         }
+
+        p {
+            font-size: 24px; /* Text mai mare */
+            margin-bottom: 40px;
+        }
+
         a.button {
             display: inline-block;
-            padding: 15px 30px;
-            font-size: 20px;
+            padding: 20px 40px;       /* Buton mai mare */
+            font-size: 24px;          /* Text buton mai mare */
             background-color: #f5b041;
             color: white;
             text-decoration: none;
-            border-radius: 10px;
-            margin-top: 30px;
+            border-radius: 12px;
             box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
         }
+
         a.button:hover {
             background-color: #e0a030;
         }
