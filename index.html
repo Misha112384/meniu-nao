@@ -3,6 +3,7 @@
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant NAO - Meniu</title>
     <style>
         html, body {
@@ -19,6 +20,7 @@
             font-family: 'Segoe UI', sans-serif;
             text-align: center;
             color: #4a3f2a;
+            padding: 20px;
         }
 
         h1 {
@@ -29,7 +31,7 @@
 
         p {
             font-size: 24px; 
-            margin-bottom: 40px;
+            margin-bottom: 20px;
         }
 
         a.button {
@@ -41,10 +43,26 @@
             text-decoration: none;
             border-radius: 12px;
             box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
         }
 
         a.button:hover {
             background-color: #e0a030;
+        }
+
+        .contact-info {
+            font-size: 20px;
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+
+        .contact-info a {
+            color: #4a3f2a;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -52,5 +70,14 @@
     <h1>Restaurant NAO</h1>
     <p>Bine ați venit! Accesați meniul nostru complet mai jos:</p>
     <a class="button" href="Restaurant_NAO_Meniu.pdf" target="_blank">Vezi meniul</a>
+
+    <div class="contact-info">
+        <p><strong>Adresa:</strong> Tudor Vladimirescu nr. 22, Eforie Nord</p>
+        <p><strong>Telefon:</strong> 
+            <a href="tel:+40720868444">+40 720 868 444</a> 
+            | 
+            <a href="https://wa.me/40720868444" target="_blank">WhatsApp</a>
+        </p>
+    </div>
 </body>
 </html>
